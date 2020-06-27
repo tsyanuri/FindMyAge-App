@@ -5,4 +5,7 @@
     <string name="select_date">Select Date</string>
     <string name="selected_date">Selected Date</string>
     <string name="age_in_minutes">Age in Minutes</string>
+    <string name="select_date_in_minutes">Age in Minutes</string>
+    <string name="select_date_in_days">Age in Days</string>
+    <string name="age_in_years">Age in Years</string>
 </resources>

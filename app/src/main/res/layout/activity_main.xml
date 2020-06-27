@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="50dp"
+    android:padding="20dp"
     android:background="@color/color_background"
     tools:context=".MainActivity">
 
@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/selectedColor"
+        android:textColor="@color/selectdateColor"
         android:text="@string/selected_date"
         android:textSize="18sp"/>
 
@@ -62,15 +62,44 @@
         android:id="@+id/tvSelectDateInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/selectdate"
+        android:textColor="@color/selectdateColor"
         android:layout_marginTop="20sp"
         android:textSize="35sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/textBackground"
-        android:text="Select Date in Minutes"
+        android:textColor="@color/selectdateColor"
+        android:text="@string/select_date_in_minutes"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvSelectDateInDays"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selectdateColor"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selectdateColor"
+        android:text="@string/select_date_in_days"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvSelectDateInYears"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selectdateColor"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/selectdateColor"
+        android:text="@string/age_in_years"
         android:textSize="18sp"/>
 
 </LinearLayout>
