@@ -3,4 +3,11 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="textColor">#a55eea</color>
+    <color name="color_background">#d1d8e0</color>
+    <color name="textBackground">#a55eea</color>
+    <color name="txtColorAge">#FFFF</color>
+    <color name="selectdateColor">#929292</color>
+    <color name="selectdate">#844046</color>
+    <color name="selectedColor">#20bf6b</color>
 </resources>
